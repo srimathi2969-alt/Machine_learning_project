@@ -1,0 +1,10 @@
+.venv/
+_pycache_/
+.git/
+.dvc/
+dataset/
+notebook/
+mlruns/
+*.dvc
+dvc.look
+dvc.yaml
