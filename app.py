@@ -17,7 +17,7 @@ class StudentData(BaseModel):
 
 @app.get("/")
 def home():
-    return {"message": "Student Performance Prediction API running"}
+    return {"message": "Student Performance Prediction API "}
 
 @app.post("/predict")
 def predict(student: StudentData):
